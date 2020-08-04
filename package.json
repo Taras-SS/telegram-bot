@@ -1,0 +1,24 @@
+{
+  "name": "city-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start_local": "nodemon -r dotenv/config ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
